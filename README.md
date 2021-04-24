@@ -2,7 +2,7 @@
 
 * [Required Software](#required-software)
 * [Feature included](#feature-included)
-* [How to run the Program](#how-to-run)
+* [How to run the Program](#how-to-run-the-program)
 * [About the Project Structure](#about-the-project-structure)
 * [Libraries](#libraries)
 
@@ -20,8 +20,4 @@ API Endpoint: http://api.intigral-ott.net/popcorn-api-rs-7.9.10/v1/promotions
 
 ## How to run the Program
 Import the project into Intellij IDEA/Eclipse.
-You can open the test class(PromotionApiTest) on `src\test\java\com\intigral\api` and execute it.
-Or we can test it using testng.xml as well which is placed inside directory structure "samplerestassureddemo\testng.xml"
-
-We can also run it from command prompt.
 
