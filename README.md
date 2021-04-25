@@ -22,7 +22,7 @@ This project is an utility which will be used to find all possible flights arriv
     H2DB as data store (prepare required data at the service start-up time)
     Unit testing.
     Actuator Endpoints Enabled at path :http://localhost:8091/actuator/health
-## 2.	Master Data Service(master-data-service):The service should expose end-points to “return list of all Airports” and services to perform CRUD (Create, Read, Update, Delete)       operations.Application runs on port 8090
+## 2.	Master Data Service(master-data-service):The service should expose end-points to “return list of all Airports” and services to perform CRUD (Create, Read, Update, Delete) operations.Application runs on port 8090
     ## Technology: 
     Spring Boot Service, 
     Spring Data for data access, 
@@ -31,6 +31,7 @@ This project is an utility which will be used to find all possible flights arriv
     Actuator Endpoints Enabled at path :http://localhost:8090/actuator/health
     Swagger Api Docs:-http://localhost:8090/v2/api-docs
     Swagger UI:-http://localhost:8090/swagger-ui/#/flight-resource
+    Swagger UI or Postman can be used to perfrom CRUD opertion on master-data-service.
 ## 3.	Spring Cloud API Gateway for rooting purpose(cloud-api-gateway):This service is going to act as a gateway for the services.Application runs on port 8089.It also includes UI module flight-connection.
     ## Technology: 
     Spring Boot Service, 
@@ -42,6 +43,11 @@ This project is an utility which will be used to find all possible flights arriv
 	  ReactJS using type-script (or)javascript
 	  MaterialUI for UI components
 	  Any open-source map library
+	  
+## Request Headers:-
+	"Access-Control-Allow-Origin": "*",
+        "Content-type": "application/json; charset=UTF-8",
+        "Accept": "application/json"
     
     
 ## How to run the Program
