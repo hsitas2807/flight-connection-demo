@@ -4,7 +4,6 @@
 * [Feature included](#feature-included)
 * [How to run the Program](#how-to-run-the-program)
 * [How to generate Code coverage report](#How-to-generate-Code-coverage-report)
-* [Libraries](#libraries)
 
 This project is an utility which will be used to find all possible flights arriving to a particular city which can be connected with all flights departuring from the same city. For example, if you want to travel from Mumbai (BOM) to New York (JFK) via Dubai (DXB), the utility will help us to find all possible flights arriving to Dubai from Mumbai which can connect with all flights departuring from Dubai to New York City.
 
